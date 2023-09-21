@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Sockets</title>
+  </head>
+  <body>
+    <div id="auth">
+      <form id="form">
+        <p style="color: red" id="errp"></p>
+        <input type="text" id="username" />
+        <button type="submit">Login</button>
+      </form>
+
+      <ul id="display"></ul>
+    </div>
+
+    <div id="userlogged"></div>
+
+    <div id="chatpage"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
